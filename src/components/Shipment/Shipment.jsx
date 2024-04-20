@@ -16,7 +16,7 @@ const Shipment = () => {
     // DELIVERED -> 7234258
     // CANCELLED -> 13737343
 
-    const shipment = await fetchShipmentDetails("7234258");
+    const shipment = await fetchShipmentDetails("13737343");
     if (shipment) setshipmentData(shipment);
   };
 

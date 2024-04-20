@@ -46,20 +46,17 @@ h4 {
   align-items: center;
 }
 
-.indexedStep.delivered,
-.RSPBprogressBar.RSPBprogression {
+.indexedStep.delivered {
   background-color: rgb(73, 176, 142);
   margin-bottom: 0.7rem;
 }
 
-.indexedStep.progressbar-cancelled,
-.RSPBprogressBar.RSPBprogression {
+.indexedStep.progressbar-cancelled {
   background-color: #f40205;
   margin-bottom: 0.7rem;
 }
 
-.indexedStep.progressbar-delivered-to-sender,
-.RSPBprogressBar.RSPBprogression {
+.indexedStep.progressbar-delivered-to-sender {
   background-color: #f9b905;
   margin-bottom: 0.8rem;
 }

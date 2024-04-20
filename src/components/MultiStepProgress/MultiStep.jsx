@@ -58,6 +58,7 @@ function MultiStep({ shipmentId, shipmentData }) {
         return newSteps;
       });
     }
+    console.log(shipmentData.CurrentStatus?.state);
   }, [shipmentData]);
 
   const [steps, setSteps] = useState([
@@ -115,6 +116,13 @@ function MultiStep({ shipmentId, shipmentData }) {
         {shipmentData.CurrentStatus?.state && (
           <div className={`progress__bar`}>
             <ProgressBar
+              filledBackground={`${
+                shipmentData.CurrentStatus?.state === "DELIVERED"
+                  ? "rgb(73, 176, 142)"
+                  : shipmentData.CurrentStatus?.state === "DELIVERED_TO_SENDER"
+                  ? "#f9b905"
+                  : "#f40205"
+              }`}
               percent={progressBarPercent(shipmentData.CurrentStatus?.state)}
             >
               {steps.map((step, i) => (

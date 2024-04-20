@@ -1,0 +1,13 @@
+.address-logs {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: baseline;
+  padding: 4rem;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}

@@ -1,0 +1,85 @@
+.container {
+  border: 0.9px solid #ccc;
+  border-radius: 9px;
+  margin: 2rem;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+.progress__bar {
+  display: grid;
+  padding: 3rem 5rem;
+}
+
+h4 {
+  color: rgb(209, 209, 210);
+}
+
+.delivered {
+  color: rgb(73, 176, 142);
+}
+
+.cancelled {
+  color: #f40205;
+}
+
+.delivered-to-sender {
+  color: #f9b905;
+}
+
+.indexedStep {
+  color: white;
+  width: 28px;
+  height: 27px;
+  font-size: 12px;
+  margin-top: 1.4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.delivered,
+.RSPBprogressBar.RSPBprogression {
+  background-color: rgb(73, 176, 142);
+  margin-bottom: 0.7rem;
+}
+
+.indexedStep.progressbar-cancelled,
+.RSPBprogressBar.RSPBprogression {
+  background-color: #f40205;
+  margin-bottom: 0.7rem;
+}
+
+.indexedStep.progressbar-delivered-to-sender,
+.RSPBprogressBar.RSPBprogression {
+  background-color: #f9b905;
+  margin-bottom: 0.8rem;
+}
+
+.big {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0 !important;
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
+
+.step-label {
+  /* padding-left: 2rem;
+  padding-top: 0.5rem; */
+  font-size: 18px;
+  font-weight: bold;
+}

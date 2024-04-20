@@ -1,0 +1,15 @@
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25rem;
+  height: 10rem;
+  background-color: #fbfbfb;
+  border: 0.8px solid rgb(116, 116, 116);
+  border-radius: 9px;
+}
+
+p {
+  color: rgb(39, 39, 39);
+}

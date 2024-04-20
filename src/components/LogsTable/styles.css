@@ -1,0 +1,34 @@
+h2 {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(72, 72, 72);
+}
+.logs-table {
+  display: grid;
+  width: 53rem;
+  height: 23rem;
+  /* margin-left: 34rem;
+  margin-bottom: 10rem; */
+}
+
+.table-header {
+  background-color: #fafafa;
+  border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+.table-body {
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 9px;
+}
+
+.MuiTableCell-root.MuiTableCell-head.table-cell-header {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(170, 170, 170);
+}
+
+.MuiTableCell-root.MuiTableCell-body.table-cell {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}

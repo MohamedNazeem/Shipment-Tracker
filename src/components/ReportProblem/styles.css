@@ -1,0 +1,23 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+  background-color: #fbfbfb;
+  border: 0.8px solid rgb(116, 116, 116);
+  border-radius: 9px;
+  padding: 1rem;
+}
+
+button {
+  grid-column: span 3;
+  background-color: #de302f;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
